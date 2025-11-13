@@ -3,3 +3,11 @@
 ### we have to convert the font into woff2 format because it is very light-weight font
 
 ### we have to convert the images.jpeg to webp
+
+
+### now lets this site with the help of github
+steps:
+1. click on the settings, check reference from step 1.png image
+2. click on the pages, check reference from step 2.png image
+3. change the branch from none to main and save, check reference from step 3.png image
+4. wait for some time to host it and just enjoy

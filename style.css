@@ -11,4 +11,30 @@
 html , body{
     height: 100%;
     width: 100%;
+    color: #fff;
+    background-color: #212121;
+}
+
+img{
+    height: 500px;
+    width: 400px;
+}
+
+#main{
+    display: flex;
+    margin: 20px;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    font-size: 1.4rem;
+}
+
+.notes2{
+    margin-top: 50px;
+}
+
+h1,h2,h3{
+    font-size: 1.6em;
+    color: darksalmon;
 }
