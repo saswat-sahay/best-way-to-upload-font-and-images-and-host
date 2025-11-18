@@ -27,6 +27,7 @@ git reset --hard HEAD~2
 ### Branching
 git branch branch name - to create branch
 git switch branch name - to move around branches
+git switch -C branchName - to create and move around a new branch in a single line
 
 Main branch me Maine ek branch.txt file banaya tha, jisme maine sirf ek line likha tha
 NewBranch me maine do line ka code likha tha
@@ -63,3 +64,27 @@ git stash apply
 
 ### deleting draft
 git stash clear
+
+### collaboration
+
+## STEPS for collaboration
+1. main banda folders aur initial files banayega
+2. ab usse github pr daal dega
+// use git basic steps
+3. collaborators add krega
+// by settings in github repo
+4. saare collaborators us repo ko clone krenge
+// by git clone
+5. {IMPORTANT} apni apni separate branch create kre, collaborators dont use main branch
+// git branch -C newbranch
+6. write code on their personal branch and commit
+7. push the code in the personal branch not in the main branch
+8. inform teammates about commit
+9. merger banda fetch krega aur merge krega aur repush krega
+// git fetch
+// main banda switches to main branch and then merge the changes
+// git merge branchname
+// after that push it to github
+<!-- now collaborators -->
+// git fetch
+// git pull
